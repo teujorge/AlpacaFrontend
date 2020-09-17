@@ -200,10 +200,10 @@ class SearchScreen extends React.Component {
 
     render() {
 
-        // console.log(this.state.data)
-        // console.log(this.state.search)
-        // console.log(this.state.period)
-        // console.log(this.state.interval)
+        console.log(this.state.data)
+        console.log(this.state.search)
+        console.log(this.state.period)
+        console.log(this.state.interval)
         console.log(this.props.route)
 
         const setColor = this.props.route.params
